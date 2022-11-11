@@ -3,7 +3,7 @@
 [Videos & Images](page2.md)
 
 <aside>
-💡 Notes about publishing pages with Jekyll ([ft.](https://www.linkedin.com/learning/learning-github-pages/next-steps?autoSkip=true&autoplay=true&resume=false&u=94136124))
+💡 Notes about publishing pages with Jekyll ([<a href="https://www.linkedin.com/learning/learning-github-pages/next-steps?autoSkip=true&autoplay=true&resume=false&u=94136124">ft.</a>])
 
 </aside>
 
