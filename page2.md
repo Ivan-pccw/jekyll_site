@@ -11,7 +11,7 @@ First image
 
 Second image
 ![Bocchi_haha2](img/bocchi2.jfif)
-<img src="img/bocchi2.jfif" alt="Bocchi2">
+<img src="img/bocchi2.jfif" alt="Bocchi2" width=500>
 
 ---
 
@@ -20,5 +20,5 @@ Second image
 This is a mp4 video.
 <video src="video/bocchi_cyberpunk.mp4" controls>
 
-This is a mkv video.
-<video src="video/Test.mkv" controls>
+This is a mkv video. (mkv is not available TAT)
+<!-- <video src="video/Test.mkv" controls> -->
