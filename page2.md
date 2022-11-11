@@ -31,7 +31,9 @@ With HTML (w/ width=500):
 ### Some video clips
 
 This is a mp4 video.
-<video src="video/bocchi_cyberpunk.mp4" controls>
+<video src="video/bocchi_cyberpunk.mp4" controls></video>
 
 This is a mkv video. (mkv is not available TAT)
 <!-- <video src="video/Test.mkv" controls> -->
+
+{% include footer.html %}

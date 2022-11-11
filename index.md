@@ -10,3 +10,5 @@
 ## Exporting Notion to md
 
 The file is in ZIP, and you are required to add `.zip`
+
+{% include footer.html %}
