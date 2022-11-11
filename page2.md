@@ -9,9 +9,9 @@ A link to a happy place: [Bangumi.moe]({{site.portal}})
 
 #### First image
 
-With markdown: </br>
+With markdown: <br>
 ![Bocchi_haha](img/bocchi.jpg)
-With HTML (w/ width=100): </br>
+With HTML (w/ width=100): <br>
 <img src="img/bocchi.jpg" alt="Bocchi" width=100>
 
 
