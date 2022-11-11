@@ -1,5 +1,7 @@
 # GitHub Pages
 
+[Page 2](page2.md)
+
 <aside>
 💡 Notes about publishing pages with Jekyll
 
