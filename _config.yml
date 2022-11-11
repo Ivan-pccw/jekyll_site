@@ -7,3 +7,4 @@ plugins:
 title: This is the title of the page
 description: This is the description of the page
 show_downloads: true
+portal: "https://bangumi.moe"

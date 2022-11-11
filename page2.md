@@ -3,6 +3,8 @@
 This is a page for videos and images.
 Click [here](/index.md) to back to the home page.
 
+[Bangumi.moe]{{site.portal}}
+
 ## Introducing Bocchi the Rock
 
 First image
