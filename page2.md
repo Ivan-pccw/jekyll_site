@@ -35,5 +35,3 @@ This is a mp4 video.
 
 This is a mkv video. (mkv is not available TAT)
 <!-- <video src="video/Test.mkv" controls> -->
-
-{% include footer.html %}
