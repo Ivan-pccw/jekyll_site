@@ -7,19 +7,19 @@ Notes for message encryption and decryption with JCE (Java Cryptiographic Extens
 
 ```xml
 <dependency>
-	<groupId>org.bouncycastle</groupId>
-	<artifactId>bcprov-ext-jdk15on</artifactId>
-	<version>1.68</version>
+	  <groupId>org.bouncycastle</groupId>
+	  <artifactId>bcprov-ext-jdk15on</artifactId>
+	  <version>1.68</version>
 </dependency>
 <dependency>
-  <groupId>org.bouncycastle</groupId>
-  <artifactId>bcprov-jdk15on</artifactId>
-  <version>1.68</version>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcprov-jdk15on</artifactId>
+    <version>1.68</version>
 </dependency>
 <dependency>
-  <groupId>org.apache.camel</groupId>
-  <artifactId>camel-crypto</artifactId>
-  <version>3.14.5</version>
+    <groupId>org.apache.camel</groupId>
+    <artifactId>camel-crypto</artifactId>
+    <version>3.14.5</version>
 </dependency>
 ```
 
