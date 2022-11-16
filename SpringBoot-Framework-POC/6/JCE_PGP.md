@@ -1,32 +1,32 @@
 # JCE & PGP
 
-: Camel, Spring
-
 Notes for message encryption and decryption with JCE (Java Cryptiographic Extension) and PGP (Pretty Good Privacy).
+
 
 ## 1. Maven Dependencies
 
 ```xml
 <dependency>
-		<groupId>org.bouncycastle</groupId>
-		<artifactId>bcprov-ext-jdk15on</artifactId>
-		<version>1.68</version>
+	<groupId>org.bouncycastle</groupId>
+	<artifactId>bcprov-ext-jdk15on</artifactId>
+	<version>1.68</version>
 </dependency>
 <dependency>
-		<groupId>org.bouncycastle</groupId>
-		<artifactId>bcprov-jdk15on</artifactId>
-		<version>1.68</version>
+  <groupId>org.bouncycastle</groupId>
+  <artifactId>bcprov-jdk15on</artifactId>
+  <version>1.68</version>
 </dependency>
 <dependency>
-		<groupId>org.apache.camel</groupId>
-		<artifactId>camel-crypto</artifactId>
-		<version>3.14.5</version>
+  <groupId>org.apache.camel</groupId>
+  <artifactId>camel-crypto</artifactId>
+  <version>3.14.5</version>
 </dependency>
 ```
 
+
 ## 2. Key Generation
 
-Download [Kleopatra](https://gpg4win.org/get-gpg4win.html) for key generating. Go to File > New OpenPGP KeyPair…
+Download [Kleopatra](https://gpg4win.org/get-gpg4win.html) for key generating. Go to **File** > **New OpenPGP KeyPair…**
 
 ![Untitled](img/Untitled.png)
 
@@ -39,7 +39,7 @@ To export the keys, right click the key,
 - choose **Export…** for the public key
 - choose **Backup Secret Keys…** for secret key
     
-         and save them in `.gpg` format.
+         and save them in .gpg format.
     
 
 ## 3. Define paths/parameters
@@ -53,6 +53,7 @@ final String keyPassword = "YOUR_PASSWORD";
 
 //keyUserid need to match the Name & Email address declared while key generated
 ```
+
 
 ## 4. Simple file encryption & decryption
 
@@ -103,6 +104,7 @@ from("file:C:\\Users\\Name\\Desktop\\secure\\decrypt\\input")
   .to("file:C:\\Users\\Name\\Desktop\\secure\\decrypt\\output");
 ```
 
+
 ## 5. Message Encryption & Decryption
 
 ### 5.1. Using PGPDataFormat
@@ -134,6 +136,7 @@ try {
 }catch (Exception e){}
 ```
 
-### Reference
+
+#### Reference
 
 [https://dzone.com/articles/pgp-encryption-and-decryption-with-apache-camel](https://dzone.com/articles/pgp-encryption-and-decryption-with-apache-camel)
