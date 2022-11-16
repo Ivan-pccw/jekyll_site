@@ -2,7 +2,7 @@
 
 Notes for message encryption and decryption with JCE (Java Cryptiographic Extension) and PGP (Pretty Good Privacy).
 
-
+<br>
 ## 1. Maven Dependencies
 
 ```xml
@@ -23,7 +23,7 @@ Notes for message encryption and decryption with JCE (Java Cryptiographic Extens
 </dependency>
 ```
 
-
+<br>
 ## 2. Key Generation
 
 Download [Kleopatra](https://gpg4win.org/get-gpg4win.html) for key generating. Go to **File** > **New OpenPGP KeyPair…**
@@ -34,14 +34,13 @@ Select **RSA** or **DSA**, click the checkbox if you need a passphrase.
 
 ![Untitled](img/Untitled%201.png)
 
-To export the keys, right click the key, 
+To export the keys, right click the key, save them in *.gpg* format.
 
 - choose **Export…** for the public key
 - choose **Backup Secret Keys…** for secret key
     
-         and save them in .gpg format.
     
-
+<br><br>
 ## 3. Define paths/parameters
 
 ```java
