@@ -17,5 +17,4 @@ The file is in ZIP, and you are required to add `.zip`
 Go to the GitHub repo of that template (for this is [Cayman](https://github.com/pages-themes/cayman)), and overwrite the existing formats.
 
 
----
 {% include footer.html %}

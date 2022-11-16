@@ -139,3 +139,5 @@ try {
 #### Reference
 
 [https://dzone.com/articles/pgp-encryption-and-decryption-with-apache-camel](https://dzone.com/articles/pgp-encryption-and-decryption-with-apache-camel)
+
+{% include footer.html %}
