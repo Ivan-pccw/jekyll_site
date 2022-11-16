@@ -7,19 +7,19 @@ Notes for message encryption and decryption with JCE (Java Cryptiographic Extens
 
 ```xml
 <dependency>
-	  <groupId>org.bouncycastle</groupId>
-	  <artifactId>bcprov-ext-jdk15on</artifactId>
-	  <version>1.68</version>
+  <groupId>org.bouncycastle</groupId>
+  <artifactId>bcprov-ext-jdk15on</artifactId>
+  <version>1.68</version>
 </dependency>
 <dependency>
-    <groupId>org.bouncycastle</groupId>
-    <artifactId>bcprov-jdk15on</artifactId>
-    <version>1.68</version>
+  <groupId>org.bouncycastle</groupId>
+  <artifactId>bcprov-jdk15on</artifactId>
+  <version>1.68</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.camel</groupId>
-    <artifactId>camel-crypto</artifactId>
-    <version>3.14.5</version>
+  <groupId>org.apache.camel</groupId>
+  <artifactId>camel-crypto</artifactId>
+  <version>3.14.5</version>
 </dependency>
 ```
 
@@ -40,7 +40,7 @@ To export the keys, right click the key, save them in *.gpg* format.
 - choose **Backup Secret Keys…** for secret key
     
     
-<br><br>
+<br>
 ## 3. Define paths/parameters
 
 ```java
@@ -53,7 +53,7 @@ final String keyPassword = "YOUR_PASSWORD";
 //keyUserid need to match the Name & Email address declared while key generated
 ```
 
-
+<br>
 ## 4. Simple file encryption & decryption
 
 ### 4.1. with .pgp()
@@ -103,7 +103,7 @@ from("file:C:\\Users\\Name\\Desktop\\secure\\decrypt\\input")
   .to("file:C:\\Users\\Name\\Desktop\\secure\\decrypt\\output");
 ```
 
-
+<br>
 ## 5. Message Encryption & Decryption
 
 ### 5.1. Using PGPDataFormat
@@ -135,7 +135,7 @@ try {
 }catch (Exception e){}
 ```
 
-
+<br>
 #### Reference
 
 [https://dzone.com/articles/pgp-encryption-and-decryption-with-apache-camel](https://dzone.com/articles/pgp-encryption-and-decryption-with-apache-camel)
