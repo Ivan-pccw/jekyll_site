@@ -149,9 +149,7 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
 <details>
     <summary>code 2</summary>
 
-    ### code 2
-
-    ```xml
+    {% highlight xml %}
     <?xml version="1.0" encoding="UTF-8"?>
     <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
                xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
@@ -227,6 +225,7 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
         </xs:element>
     </xs:schema>
     ```
+    {% endhighlight %}
     
 </details>
     
