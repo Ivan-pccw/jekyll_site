@@ -19,14 +19,18 @@ The file is in ZIP, and you are required to add `.zip`
 Go to the GitHub repo of that template (for this is [Cayman](https://github.com/pages-themes/cayman)), and overwrite the existing formats.
 
 ## Using Toggle List with code block
-```html
-<details>
-<summary>Preview</summary>
 
-{% highlight ruby %}
+<code>
+&lt;details&gt;
+
+&lt;summary&gt;Preview&lt;/summary&gt;
+
+<span class="p">{%</span><span class="w"> </span><span class="nt">highlight</span><span class="w"> </span>ruby<span class="w"> </span><span class="p">%}</span>
+
 puts 'Expanded message'
-{% endhighlight %}
 
-</details>
-```
+<span class="p">{%</span><span class="w"> </span><span class="nt">endhighlight</span><span class="w"> </span><span class="p">%}</span>
+
+&lt;/details&gt;
+</code>
 
