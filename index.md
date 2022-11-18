@@ -20,7 +20,7 @@ Go to the GitHub repo of that template (for this is [Cayman](https://github.com/
 
 ## Using Toggle List with code block
 
-```html
+```xml
 <details>
 <summary>Preview</summary>
 
