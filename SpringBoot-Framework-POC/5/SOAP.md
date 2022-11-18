@@ -54,6 +54,7 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
     <summary><b>Example code</b> (click to open)</summary>
 
     ### code 1
+    
     ```xml
     <?xml version="1.0" encoding="UTF-8" standalone="no"?>
     <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
@@ -148,6 +149,7 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
     <summary>code 2</summary>
 
     ### code 2
+
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
