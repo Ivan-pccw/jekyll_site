@@ -50,12 +50,13 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
 
 ## 2. About .wsdl
 
-<details>
-    <summary><b>Example code</b> (click to open)</summary>
+Example code:
 
-    ### code 1
-    
-    ```xml
+<details>
+    <summary><b>- MusicService.wsdl</b> (click to open)</summary>
+
+
+    {% highlight xml %}
     <?xml version="1.0" encoding="UTF-8" standalone="no"?>
     <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
                       xmlns:tns="http://www.example.org/book"
@@ -142,12 +143,13 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
             </wsdl:port>
         </wsdl:service>
     </wsdl:definitions>
-    ```
+
+    {% endhighlight %}
 
 </details>
 
 <details>
-    <summary>code 2</summary>
+    <summary><b>- Music.xsd</b> (click to open)</summary>
 
     {% highlight xml %}
     <?xml version="1.0" encoding="UTF-8"?>
@@ -224,7 +226,6 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
             </xs:complexType>
         </xs:element>
     </xs:schema>
-    ```
     {% endhighlight %}
     
 </details>
