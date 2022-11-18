@@ -20,7 +20,7 @@ Go to the GitHub repo of that template (for this is [Cayman](https://github.com/
 
 ## Using Toggle List with code block
 
-```xml
+{% highlight html}
 <details>
 <summary>Preview</summary>
 
@@ -29,5 +29,5 @@ puts 'Expanded message'
 {% endhighlight %}
 
 </details>
-```
+{% endhighlight %}
 
