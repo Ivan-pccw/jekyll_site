@@ -18,17 +18,6 @@ The file is in ZIP, and you are required to add `.zip`
 
 Go to the GitHub repo of that template (for this is [Cayman](https://github.com/pages-themes/cayman)), and overwrite the existing formats.
 
-## Using Toggle List with code block
+## [Using Toggle List with code block](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/markdown/collapsible-items.html)
 
-{% highlight html %}
-<details>
-<summary>Preview</summary>
-
-<!--remove _ to use-->
-{%high_light ruby%}
-puts 'Expanded message'
-{%endhigh_light%}
-
-</details>
-{% endhighlight %}
 
