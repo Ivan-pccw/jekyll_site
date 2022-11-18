@@ -20,17 +20,14 @@ Go to the GitHub repo of that template (for this is [Cayman](https://github.com/
 
 ## Using Toggle List with code block
 
-<code>
-&lt;details&gt;
+```html
+<details>
+<summary>Preview</summary>
 
-&lt;summary&gt;Preview&lt;/summary&gt;
-
-<span class="p">{%</span><span class="w"> </span><span class="nt">highlight</span><span class="w"> </span>ruby<span class="w"> </span><span class="p">%}</span>
-
+{% highlight ruby %}
 puts 'Expanded message'
+{% endhighlight %}
 
-<span class="p">{%</span><span class="w"> </span><span class="nt">endhighlight</span><span class="w"> </span><span class="p">%}</span>
-
-&lt;/details&gt;
-</code>
+</details>
+```
 
