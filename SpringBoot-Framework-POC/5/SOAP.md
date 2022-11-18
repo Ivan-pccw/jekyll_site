@@ -51,7 +51,7 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
 ## 2. About .wsdl
 
 <details>
-    <summary><b>Example code</b></summary>
+    <summary><b>Example code</b> (click to open)</summary>
 
     ```xml
     <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -141,7 +141,7 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
         </wsdl:service>
     </wsdl:definitions>
     ```
-    
+  
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
