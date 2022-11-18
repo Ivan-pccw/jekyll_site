@@ -24,10 +24,10 @@ Go to the GitHub repo of that template (for this is [Cayman](https://github.com/
 <details>
 <summary>Preview</summary>
 
-<!--Uncomment the following comments to use-->
-<!--{% highlight ruby %}-->
+<!--add space between % to use-->
+{%highlight ruby%}
 puts 'Expanded message'
-<!--{% endhighlight %}-->
+{%endhighlight%}
 
 </details>
 {% endhighlight %}
