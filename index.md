@@ -1,6 +1,8 @@
 # GitHub Pages
 
-| [Videos & Images](page2.md) | [#6 JCE & PGP](SpringBoot-Framework-POC/6/JCE_PGP.md) |
+| [#5 SOAP](SpringBoot-Framework-POC/5/SOAP.md) | [#6 JCE & PGP](SpringBoot-Framework-POC/6/JCE_PGP.md) |
+
+[Videos & Images](page2.md) 
 
 <br>
 <aside>
