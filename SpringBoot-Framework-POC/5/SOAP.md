@@ -50,7 +50,8 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
 
 ## 2. About .wsdl
 
-- Example code
+<details>
+<summary>Example code</summary>
     
     ```xml
     <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -217,6 +218,7 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
         </xs:element>
     </xs:schema>
     ```
+</details>
     
 
 As the targetNamespace (http://www.example.org/book) is a dummy path, a `.xsd` is defined for that with schemaLocation.
