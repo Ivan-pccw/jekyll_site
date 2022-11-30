@@ -50,9 +50,13 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
 
 ## 2. About .wsdl
 
-- Example code
-    
-    ```xml
+Example code:
+
+<details>
+    <summary><b>- MusicService.wsdl</b> (click to open)</summary>
+
+
+    {% highlight xml %}
     <?xml version="1.0" encoding="UTF-8" standalone="no"?>
     <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
                       xmlns:tns="http://www.example.org/book"
@@ -139,9 +143,15 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
             </wsdl:port>
         </wsdl:service>
     </wsdl:definitions>
-    ```
-    
-    ```xml
+
+    {% endhighlight %}
+
+</details>
+
+<details>
+    <summary><b>- Music.xsd</b> (click to open)</summary>
+
+    {% highlight xml %}
     <?xml version="1.0" encoding="UTF-8"?>
     <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
                xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
@@ -216,7 +226,9 @@ Where <wsdl> tag define the `.wsdl` file path located in the project.
             </xs:complexType>
         </xs:element>
     </xs:schema>
-    ```
+    {% endhighlight %}
+    
+</details>
     
 
 As the targetNamespace (http://www.example.org/book) is a dummy path, a `.xsd` is defined for that with schemaLocation.
