@@ -1,6 +1,6 @@
 # GitHub Pages
 
-| [#5 SOAP](SpringBoot-Framework-POC/5/SOAP.md) | [#6 JCE & PGP](SpringBoot-Framework-POC/6/JCE_PGP.md) | [#7 FTP & SFTP](SpringBoot-Framework-POC/7/FTP_SFTP.md) |
+| [Bocchi portfolio](https://ivan-pccw.github.io/portfolio-site/) | [#5 SOAP](SpringBoot-Framework-POC/5/SOAP.md) | [#6 JCE & PGP](SpringBoot-Framework-POC/6/JCE_PGP.md) | [#7 FTP & SFTP](SpringBoot-Framework-POC/7/FTP_SFTP.md) |
 
 [Videos & Images](page2.md) 
 
