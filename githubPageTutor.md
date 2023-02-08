@@ -19,3 +19,4 @@ Go to the GitHub repo of that template (for this is [Cayman](https://github.com/
 ## [Using Toggle List with code block](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/markdown/collapsible-items.html)
 
 
+[ref](https://github.com/malagege/blog/tree/master/2022)
