@@ -1,7 +1,7 @@
 # FTP/SFTP
 
 Notes for FTP/SFTP with spring camel.
-
+<br>
 ## 1. Dependencies
 
 ```xml
@@ -12,6 +12,7 @@ Notes for FTP/SFTP with spring camel.
 </dependency>
 ```
 
+<br>
 ## 2. FTP/SFTP servers
 
 Free FTP/SFTP server for testing
@@ -20,6 +21,7 @@ FTP server: [https://dlptest.com/ftp-test/](https://dlptest.com/ftp-test/)
 
 SFTP server: [https://www.sftp.net/public-online-sftp-servers](https://www.sftp.net/public-online-sftp-servers)
 
+<br>
 ## 3. FTP component
 
 Using FTP/SFTP by `ftp://` or `sftp://`  (same without `//`)
@@ -33,6 +35,7 @@ from("file:...")
 	.to("ftp://dlpuser@ftp.dlptest.com/camel_ftp_test?password=rNrKYTX9g7z3RgJRmxWuGHbeu");
 ```
 
+<br>
 ## 4. SFTP
 
 Using FTP/SFTP by `ftp://` or `sftp://` (same without `//`)

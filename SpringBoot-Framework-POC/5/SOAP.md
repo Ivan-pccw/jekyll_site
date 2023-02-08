@@ -2,6 +2,7 @@
 
 Notes for calling SOAP with camel.
 
+<br>
 ## 1. Maven Dependencies
 
  Inside **pom.xml**
@@ -48,6 +49,7 @@ Notes for calling SOAP with camel.
 
 Where <wsdl> tag define the `.wsdl` file path located in the project.
 
+<br>
 ## 2. About .wsdl
 
 Example code:
@@ -239,6 +241,7 @@ The structure in `MusisService.wsdl` : **service → binding → portType → op
 
 Java class files would be generated after maven compile.
 
+<br>
 ## 3. BackendService Class
 
 This is a class to pretend the data storage, with functions to get back the data requested.
@@ -272,6 +275,7 @@ List<Music> getMusicIsSong(Boolean isSong){
     }
 ```
 
+<br>
 ## 4. MusicEndPoint Class
 
 This class implements the generated PortType interface.
@@ -289,6 +293,7 @@ public MusicResponse getMusicById(MusicByIdRequest param){
 }
 ```
 
+<br>
 ## 5. Camel Route to call SOAP
 
 Construct a route, enter the `.process` to retrieve the parameters inside a SOAP request. where `process(exchange, new {Request_Constructer})` is a helper function. Then direct the route to a bean to handle the request.
@@ -324,7 +329,7 @@ private void process(Exchange exchange, Object req) throws Exception{
             .to("bean:soapBean?method=idResponse(${body})");
     ```
     
-
+<br>
 ## 6. Bean handling SOAP
 
 Linked to the `MusicEndPoint` class for handling the incoming request, returning the corresponding responses.
@@ -358,6 +363,7 @@ private String buildingSoap(Object res) throws ParserConfigurationException, JAX
 }
 ```
 
+<br>
 ## 7. Calling RESTful POST
 
 ```java
