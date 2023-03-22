@@ -6,6 +6,7 @@
 2. **SELECT** and **INSERT** to the DB
 3. RESTful API calls handled with ProducerTemplate
 
+<br>
 ## 1. Maven Dependencies
 
 ```xml
@@ -32,6 +33,7 @@
 </dependency>
 ```
 
+<br>
 ## 2. Datasource in application.properties
 
 Which doesn’t require to create a datasource bean, but just define the properties here for auto creation.
@@ -46,6 +48,7 @@ spring.datasource.password=password
 spring.datasoure.url=jdbc:mysql://[ip_address]:3306/[SID]
 ```
 
+<br>
 ## 3. Class for Retrieved Data
 
 Create a class with fields that the DB table return.
@@ -62,6 +65,7 @@ public class UserRole{
 }
 ```
 
+<br>
 ## 4. Service Class for the Routes
 
 Create a service class for routes handling the **SELECT** and **INSERT** queries to the DB.
@@ -137,6 +141,7 @@ public class DBServiceImpl extends RouteBuilder {
 }
 ```
 
+<br>
 ## 5. RestController with ProducerTemplate
 
 Using **ProducerTemplate** to route incoming RESTful calls, to the respective endpoints.
@@ -165,6 +170,7 @@ public class DBController{
 }
 ```
 
+<br>
 ## 6. RESTful Calls
 
 Calling the API with the following calls with Postman, for the inserting date time, the date need to have the following format while inserting to Oracle DB.
@@ -185,6 +191,7 @@ Calling the API with the following calls with Postman, for the inserting date ti
 }
 ```
 
-### Reference:
+<br>
+#### Reference:
 
 [https://www.javainuse.com/camel/camel_jdbc](https://www.javainuse.com/camel/camel_jdbc)
